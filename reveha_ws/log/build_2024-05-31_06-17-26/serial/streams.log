@@ -1,0 +1,48 @@
+[0.023s] Invoking command in '/home/reveha/reveha_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/reveha/reveha_ws/install/ball_tracker:/opt/ros/humble /home/reveha/.local/bin/cmake --build /home/reveha/reveha_ws/build/serial -- -j12 -l12
+[0.129s] [ 28%] Built target gtest_main
+[0.129s] [ 28%] Built target gtest
+[0.131s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[0.132s] [ 42%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[0.132s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[0.622s] [ 57%] [32m[1mLinking CXX static library libserial.a[0m
+[0.654s] [ 57%] Built target serial
+[0.666s] [ 64%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[0.668s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[0.668s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[0.990s] [ 85%] [32m[1mLinking CXX executable serial_example[0m
+[1.104s] [ 85%] Built target serial_example
+[1.435s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[1.436s]                  from [01m[K/home/reveha/reveha_ws/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[1.436s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[1.436s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[1.436s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.541s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[1.635s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[1.692s] [100%] Built target serial-test-timer
+[1.811s] [100%] Built target serial-test
+[1.838s] Invoked command in '/home/reveha/reveha_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/reveha/reveha_ws/install/ball_tracker:/opt/ros/humble /home/reveha/.local/bin/cmake --build /home/reveha/reveha_ws/build/serial -- -j12 -l12
+[1.968s] Invoking command in '/home/reveha/reveha_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/reveha/reveha_ws/install/ball_tracker:/opt/ros/humble /home/reveha/.local/bin/cmake --install /home/reveha/reveha_ws/build/serial
+[2.033s] -- Install configuration: ""
+[2.033s] -- Installing: /home/reveha/reveha_ws/install/serial/lib/libserial.a
+[2.034s] -- Installing: /home/reveha/reveha_ws/install/serial/include/serial/serial.h
+[2.034s] -- Up-to-date: /home/reveha/reveha_ws/install/serial/include/serial/v8stdint.h
+[2.034s] -- Up-to-date: /home/reveha/reveha_ws/install/serial/share/serial/environment/library_path.sh
+[2.034s] -- Up-to-date: /home/reveha/reveha_ws/install/serial/share/serial/environment/library_path.dsv
+[2.034s] -- Up-to-date: /home/reveha/reveha_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[2.035s] -- Up-to-date: /home/reveha/reveha_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[2.035s] -- Up-to-date: /home/reveha/reveha_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[2.035s] -- Up-to-date: /home/reveha/reveha_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[2.035s] -- Up-to-date: /home/reveha/reveha_ws/install/serial/share/serial/environment/path.sh
+[2.035s] -- Up-to-date: /home/reveha/reveha_ws/install/serial/share/serial/environment/path.dsv
+[2.035s] -- Up-to-date: /home/reveha/reveha_ws/install/serial/share/serial/local_setup.bash
+[2.035s] -- Up-to-date: /home/reveha/reveha_ws/install/serial/share/serial/local_setup.sh
+[2.035s] -- Up-to-date: /home/reveha/reveha_ws/install/serial/share/serial/local_setup.zsh
+[2.035s] -- Up-to-date: /home/reveha/reveha_ws/install/serial/share/serial/local_setup.dsv
+[2.035s] -- Installing: /home/reveha/reveha_ws/install/serial/share/serial/package.dsv
+[2.035s] -- Up-to-date: /home/reveha/reveha_ws/install/serial/share/ament_index/resource_index/packages/serial
+[2.035s] -- Up-to-date: /home/reveha/reveha_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.035s] -- Up-to-date: /home/reveha/reveha_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[2.035s] -- Up-to-date: /home/reveha/reveha_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[2.036s] -- Up-to-date: /home/reveha/reveha_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[2.036s] -- Up-to-date: /home/reveha/reveha_ws/install/serial/share/serial/package.xml
+[2.054s] Invoked command in '/home/reveha/reveha_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/reveha/reveha_ws/install/ball_tracker:/opt/ros/humble /home/reveha/.local/bin/cmake --install /home/reveha/reveha_ws/build/serial

@@ -1,0 +1,4 @@
+Invoking command in '/home/reveha/reveha_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/reveha/.local/bin/cmake --build /home/reveha/reveha_ws/build/serial -- -j12 -l12
+Invoked command in '/home/reveha/reveha_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/reveha/.local/bin/cmake --build /home/reveha/reveha_ws/build/serial -- -j12 -l12
+Invoking command in '/home/reveha/reveha_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/reveha/.local/bin/cmake --install /home/reveha/reveha_ws/build/serial
+Invoked command in '/home/reveha/reveha_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/reveha/.local/bin/cmake --install /home/reveha/reveha_ws/build/serial

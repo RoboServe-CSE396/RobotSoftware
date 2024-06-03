@@ -1,0 +1,37 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/reveha/reveha_ws/build/serial
+[ 14%] Built target gtest
+[ 28%] Built target gtest_main
+[ 57%] Built target serial
+[ 71%] Built target serial_example
+[ 85%] Built target serial-test-timer
+[100%] Built target serial-test
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/reveha/reveha_ws/install/serial/lib/libserial.a
+-- Symlinking: /home/reveha/reveha_ws/install/serial/include/serial/serial.h
+-- Symlinking: /home/reveha/reveha_ws/install/serial/include/serial/v8stdint.h
+-- Symlinking: /home/reveha/reveha_ws/install/serial/share/serial/environment/library_path.sh
+-- Symlinking: /home/reveha/reveha_ws/install/serial/share/serial/environment/library_path.dsv
+-- Symlinking: /home/reveha/reveha_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+-- Symlinking: /home/reveha/reveha_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+-- Symlinking: /home/reveha/reveha_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+-- Symlinking: /home/reveha/reveha_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+-- Symlinking: /home/reveha/reveha_ws/install/serial/share/serial/environment/path.sh
+-- Symlinking: /home/reveha/reveha_ws/install/serial/share/serial/environment/path.dsv
+-- Symlinking: /home/reveha/reveha_ws/install/serial/share/serial/local_setup.bash
+-- Symlinking: /home/reveha/reveha_ws/install/serial/share/serial/local_setup.sh
+-- Symlinking: /home/reveha/reveha_ws/install/serial/share/serial/local_setup.zsh
+-- Symlinking: /home/reveha/reveha_ws/install/serial/share/serial/local_setup.dsv
+-- Symlinking: /home/reveha/reveha_ws/install/serial/share/serial/package.dsv
+-- Symlinking: /home/reveha/reveha_ws/install/serial/share/ament_index/resource_index/packages/serial
+-- Symlinking: /home/reveha/reveha_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/reveha/reveha_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/reveha/reveha_ws/install/serial/share/serial/cmake/serialConfig.cmake
+-- Symlinking: /home/reveha/reveha_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+-- Symlinking: /home/reveha/reveha_ws/install/serial/share/serial/package.xml

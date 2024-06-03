@@ -1,0 +1,86 @@
+[0.009s] Invoking command in '/home/reveha/reveha_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/reveha/reveha_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/reveha/reveha_ws/install/serial:/usr/local/share/YDLIDAR_SDK:/opt/ros/humble LD_LIBRARY_PATH=/home/reveha/reveha_ws/install/serial/lib:${LD_LIBRARY_PATH} /home/reveha/.local/bin/cmake /home/reveha/reveha_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/reveha/reveha_ws/install/diffdrive_arduino
+[0.143s] -- The C compiler identification is GNU 11.4.0
+[0.203s] -- The CXX compiler identification is GNU 11.4.0
+[0.217s] -- Detecting C compiler ABI info
+[0.305s] -- Detecting C compiler ABI info - done
+[0.322s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.322s] -- Detecting C compile features
+[0.322s] -- Detecting C compile features - done
+[0.326s] -- Detecting CXX compiler ABI info
+[0.410s] -- Detecting CXX compiler ABI info - done
+[0.428s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.428s] -- Detecting CXX compile features
+[0.429s] -- Detecting CXX compile features - done
+[0.432s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.553s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.637s] -- Found serial: 1.2.1 (/home/reveha/reveha_ws/install/serial/share/serial/cmake)
+[0.642s] -- Found hardware_interface: 2.41.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.701s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.708s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.720s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.740s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.767s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.680s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.684s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.737s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.804s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.808s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.825s] -- Found FastRTPS: /opt/ros/humble/include
+[1.836s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.846s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.858s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.877s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.957s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.958s] -- Found Threads: TRUE
+[2.174s] -- Found controller_manager: 2.41.0 (/opt/ros/humble/share/controller_manager/cmake)
+[3.473s] -- Configuring done (3.4s)
+[3.552s] -- Generating done (0.1s)
+[3.554s] -- Build files have been written to: /home/reveha/reveha_ws/build/diffdrive_arduino
+[3.581s] Invoked command in '/home/reveha/reveha_ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/reveha/reveha_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/reveha/reveha_ws/install/serial:/usr/local/share/YDLIDAR_SDK:/opt/ros/humble LD_LIBRARY_PATH=/home/reveha/reveha_ws/install/serial/lib:${LD_LIBRARY_PATH} /home/reveha/.local/bin/cmake /home/reveha/reveha_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/reveha/reveha_ws/install/diffdrive_arduino
+[3.583s] Invoking command in '/home/reveha/reveha_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/reveha/reveha_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/reveha/reveha_ws/install/serial:/usr/local/share/YDLIDAR_SDK:/opt/ros/humble LD_LIBRARY_PATH=/home/reveha/reveha_ws/install/serial/lib:${LD_LIBRARY_PATH} /home/reveha/.local/bin/cmake --build /home/reveha/reveha_ws/build/diffdrive_arduino -- -j12 -l12
+[3.713s] [ 14%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[3.714s] [ 28%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[3.714s] [ 42%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o[0m
+[3.714s] [ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o[0m
+[3.715s] [ 71%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o[0m
+[6.775s] [ 85%] [32m[1mLinking CXX shared library libfake_robot.so[0m
+[6.944s] [100%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[6.944s] [100%] Built target fake_robot
+[7.138s] [100%] Built target diffdrive_arduino
+[7.162s] Invoked command in '/home/reveha/reveha_ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/reveha/reveha_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/reveha/reveha_ws/install/serial:/usr/local/share/YDLIDAR_SDK:/opt/ros/humble LD_LIBRARY_PATH=/home/reveha/reveha_ws/install/serial/lib:${LD_LIBRARY_PATH} /home/reveha/.local/bin/cmake --build /home/reveha/reveha_ws/build/diffdrive_arduino -- -j12 -l12
+[7.297s] Invoking command in '/home/reveha/reveha_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/reveha/reveha_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/reveha/reveha_ws/install/serial:/usr/local/share/YDLIDAR_SDK:/opt/ros/humble LD_LIBRARY_PATH=/home/reveha/reveha_ws/install/serial/lib:${LD_LIBRARY_PATH} /home/reveha/.local/bin/cmake --install /home/reveha/reveha_ws/build/diffdrive_arduino
+[7.360s] -- Install configuration: ""
+[7.361s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/robot_hardware.xml
+[7.361s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot_hardware.xml
+[7.361s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[7.365s] -- Set non-toolchain portion of runtime path of "/home/reveha/reveha_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""
+[7.365s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/lib/libfake_robot.so
+[7.368s] -- Set non-toolchain portion of runtime path of "/home/reveha/reveha_ws/install/diffdrive_arduino/lib/libfake_robot.so" to ""
+[7.368s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers
+[7.368s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[7.369s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino
+[7.369s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[7.369s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/__pycache__
+[7.369s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/__pycache__/test_robot.launch.cpython-310.pyc
+[7.369s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[7.370s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[7.370s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[7.371s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[7.371s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[7.372s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[7.372s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[7.372s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[7.373s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[7.373s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[7.373s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[7.374s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[7.374s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[7.374s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[7.375s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[7.375s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[7.376s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[7.376s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.377s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[7.377s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[7.378s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[7.394s] Invoked command in '/home/reveha/reveha_ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/reveha/reveha_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/reveha/reveha_ws/install/serial:/usr/local/share/YDLIDAR_SDK:/opt/ros/humble LD_LIBRARY_PATH=/home/reveha/reveha_ws/install/serial/lib:${LD_LIBRARY_PATH} /home/reveha/.local/bin/cmake --install /home/reveha/reveha_ws/build/diffdrive_arduino
