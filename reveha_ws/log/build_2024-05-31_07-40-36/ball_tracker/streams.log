@@ -1,0 +1,25 @@
+[0.651s] Invoking command in '/home/reveha/reveha_ws/src/ball_tracker': PYTHONPATH=/home/reveha/reveha_ws/build/ball_tracker/prefix_override:/home/reveha/reveha_ws/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /home/reveha/reveha_ws/build/ball_tracker/build install --record /home/reveha/reveha_ws/build/ball_tracker/install.log --install-scripts $base/lib/ball_tracker --single-version-externally-managed install_data
+[0.871s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.871s]   warnings.warn(
+[0.878s] running egg_info
+[0.879s] writing ../../build/ball_tracker/ball_tracker.egg-info/PKG-INFO
+[0.879s] writing dependency_links to ../../build/ball_tracker/ball_tracker.egg-info/dependency_links.txt
+[0.880s] writing entry points to ../../build/ball_tracker/ball_tracker.egg-info/entry_points.txt
+[0.880s] writing requirements to ../../build/ball_tracker/ball_tracker.egg-info/requires.txt
+[0.880s] writing top-level names to ../../build/ball_tracker/ball_tracker.egg-info/top_level.txt
+[0.881s] reading manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[0.882s] writing manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[0.882s] running build
+[0.882s] running build_py
+[0.883s] running install
+[0.883s] running install_lib
+[0.884s] running install_data
+[0.884s] running install_egg_info
+[0.886s] removing '/home/reveha/reveha_ws/install/ball_tracker/lib/python3.10/site-packages/ball_tracker-0.0.0-py3.10.egg-info' (and everything under it)
+[0.886s] Copying ../../build/ball_tracker/ball_tracker.egg-info to /home/reveha/reveha_ws/install/ball_tracker/lib/python3.10/site-packages/ball_tracker-0.0.0-py3.10.egg-info
+[0.887s] running install_scripts
+[0.904s] Installing detect_ball script to /home/reveha/reveha_ws/install/ball_tracker/lib/ball_tracker
+[0.904s] Installing detect_ball_3d script to /home/reveha/reveha_ws/install/ball_tracker/lib/ball_tracker
+[0.904s] Installing follow_ball script to /home/reveha/reveha_ws/install/ball_tracker/lib/ball_tracker
+[0.904s] writing list of installed files to '/home/reveha/reveha_ws/build/ball_tracker/install.log'
+[0.934s] Invoked command in '/home/reveha/reveha_ws/src/ball_tracker' returned '0': PYTHONPATH=/home/reveha/reveha_ws/build/ball_tracker/prefix_override:/home/reveha/reveha_ws/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /home/reveha/reveha_ws/build/ball_tracker/build install --record /home/reveha/reveha_ws/build/ball_tracker/install.log --install-scripts $base/lib/ball_tracker --single-version-externally-managed install_data

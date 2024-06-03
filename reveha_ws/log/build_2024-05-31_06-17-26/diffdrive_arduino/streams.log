@@ -1,0 +1,45 @@
+[0.013s] Invoking command in '/home/reveha/reveha_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/reveha/reveha_ws/install/serial:/home/reveha/reveha_ws/install/diffdrive_arduino:/home/reveha/reveha_ws/install/articubot_one:/usr/local/share/YDLIDAR_SDK:/home/reveha/reveha_ws/install/ball_tracker:/opt/ros/humble /home/reveha/.local/bin/cmake --build /home/reveha/reveha_ws/build/diffdrive_arduino -- -j12 -l12
+[0.138s] [ 28%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[0.138s] [ 28%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[0.138s] [ 42%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o[0m
+[3.272s] [ 57%] [32m[1mLinking CXX shared library libfake_robot.so[0m
+[3.324s] [ 71%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[3.449s] [ 85%] Built target fake_robot
+[3.514s] [100%] Built target diffdrive_arduino
+[3.534s] Invoked command in '/home/reveha/reveha_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/reveha/reveha_ws/install/serial:/home/reveha/reveha_ws/install/diffdrive_arduino:/home/reveha/reveha_ws/install/articubot_one:/usr/local/share/YDLIDAR_SDK:/home/reveha/reveha_ws/install/ball_tracker:/opt/ros/humble /home/reveha/.local/bin/cmake --build /home/reveha/reveha_ws/build/diffdrive_arduino -- -j12 -l12
+[3.680s] Invoking command in '/home/reveha/reveha_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/reveha/reveha_ws/install/serial:/home/reveha/reveha_ws/install/diffdrive_arduino:/home/reveha/reveha_ws/install/articubot_one:/usr/local/share/YDLIDAR_SDK:/home/reveha/reveha_ws/install/ball_tracker:/opt/ros/humble /home/reveha/.local/bin/cmake --install /home/reveha/reveha_ws/build/diffdrive_arduino
+[3.778s] -- Install configuration: ""
+[3.778s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/robot_hardware.xml
+[3.778s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot_hardware.xml
+[3.779s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[3.784s] -- Set non-toolchain portion of runtime path of "/home/reveha/reveha_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""
+[3.784s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/lib/libfake_robot.so
+[3.788s] -- Set non-toolchain portion of runtime path of "/home/reveha/reveha_ws/install/diffdrive_arduino/lib/libfake_robot.so" to ""
+[3.789s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers
+[3.789s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[3.789s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino
+[3.790s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[3.790s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/__pycache__
+[3.790s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/__pycache__/test_robot.launch.cpython-310.pyc
+[3.790s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[3.791s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[3.791s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[3.791s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[3.791s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[3.791s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[3.792s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[3.792s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[3.792s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[3.792s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[3.792s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[3.793s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[3.793s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[3.793s] -- Installing: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[3.793s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[3.793s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[3.793s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[3.794s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.794s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[3.794s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[3.794s] -- Up-to-date: /home/reveha/reveha_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[3.810s] Invoked command in '/home/reveha/reveha_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/reveha/reveha_ws/install/serial:/home/reveha/reveha_ws/install/diffdrive_arduino:/home/reveha/reveha_ws/install/articubot_one:/usr/local/share/YDLIDAR_SDK:/home/reveha/reveha_ws/install/ball_tracker:/opt/ros/humble /home/reveha/.local/bin/cmake --install /home/reveha/reveha_ws/build/diffdrive_arduino

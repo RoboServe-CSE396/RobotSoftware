@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.000262] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.000410] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.008771] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[0.009367] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[0.010074] (ydlidar_ros2_driver) Command: {'cmd': ['/home/reveha/.local/bin/cmake', '--build', '/home/reveha/ydlidar_ros2_ws/build/ydlidar_ros2_driver', '--', '-j12', '-l12'], 'cwd': '/home/reveha/ydlidar_ros2_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'reveha'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/reveha'), ('OLDPWD', '/home/reveha'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('ROS_IP', '192.168.93.29'), ('MANAGERPID', '1615'), ('SYSTEMD_EXEC_PID', '2104'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '42263'), ('COLCON_PREFIX_PATH', '/home/reveha/ydlidar_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'reveha'), ('JOURNAL_STREAM', '8:41295'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'reveha'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/reveha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/reveha:@/tmp/.ICE-unix/1841,unix/reveha:/tmp/.ICE-unix/1841'), ('INVOCATION_ID', '8772df7c2c184afeb9d42fd849bc937e'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:b794a32c-cfe5-4b2a-9696-eb26bfbef1ba'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.93.221:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/reveha/ydlidar_ros2_ws/build/ydlidar_ros2_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local/share/YDLIDAR_SDK:/opt/ros/humble')]), 'shell': False}
+[0.099075] (-) TimerEvent: {}
+[0.126537] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o\x1b[0m\n'}
+[0.149414] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] Built target ydlidar_ros2_driver_client\n'}
+[0.199226] (-) TimerEvent: {}
+[0.299606] (-) TimerEvent: {}
+[0.399979] (-) TimerEvent: {}
+[0.500352] (-) TimerEvent: {}
+[0.600730] (-) TimerEvent: {}
+[0.701096] (-) TimerEvent: {}
+[0.801477] (-) TimerEvent: {}
+[0.901865] (-) TimerEvent: {}
+[1.002242] (-) TimerEvent: {}
+[1.102629] (-) TimerEvent: {}
+[1.203017] (-) TimerEvent: {}
+[1.303444] (-) TimerEvent: {}
+[1.403805] (-) TimerEvent: {}
+[1.504194] (-) TimerEvent: {}
+[1.604590] (-) TimerEvent: {}
+[1.704980] (-) TimerEvent: {}
+[1.805331] (-) TimerEvent: {}
+[1.905682] (-) TimerEvent: {}
+[2.006073] (-) TimerEvent: {}
+[2.106476] (-) TimerEvent: {}
+[2.150586] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/reveha/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.150861] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/reveha/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:163:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.151009] (ydlidar_ros2_driver) StderrLine: {'line': b'  163 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[2.151123] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.151232] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/reveha/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:164:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.151345] (ydlidar_ros2_driver) StderrLine: {'line': b'  164 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[2.151500] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.151612] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/reveha/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:165:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.151740] (ydlidar_ros2_driver) StderrLine: {'line': b'  165 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[2.151849] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[2.163510] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/reveha/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.163756] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/reveha/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:173:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.163883] (ydlidar_ros2_driver) StderrLine: {'line': b'  173 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[2.163949] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.164001] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/reveha/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:174:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.164063] (ydlidar_ros2_driver) StderrLine: {'line': b'  174 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[2.164115] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.164167] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/reveha/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:175:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.164221] (ydlidar_ros2_driver) StderrLine: {'line': b'  175 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[2.164273] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[2.206779] (-) TimerEvent: {}
+[2.307132] (-) TimerEvent: {}
+[2.407479] (-) TimerEvent: {}
+[2.507823] (-) TimerEvent: {}
+[2.608178] (-) TimerEvent: {}
+[2.708520] (-) TimerEvent: {}
+[2.808884] (-) TimerEvent: {}
+[2.909303] (-) TimerEvent: {}
+[3.009703] (-) TimerEvent: {}
+[3.110084] (-) TimerEvent: {}
+[3.210445] (-) TimerEvent: {}
+[3.310822] (-) TimerEvent: {}
+[3.411193] (-) TimerEvent: {}
+[3.511567] (-) TimerEvent: {}
+[3.611908] (-) TimerEvent: {}
+[3.712252] (-) TimerEvent: {}
+[3.812622] (-) TimerEvent: {}
+[3.912988] (-) TimerEvent: {}
+[4.013356] (-) TimerEvent: {}
+[4.113753] (-) TimerEvent: {}
+[4.208577] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_node\x1b[0m\n'}
+[4.213921] (-) TimerEvent: {}
+[4.314379] (-) TimerEvent: {}
+[4.414783] (-) TimerEvent: {}
+[4.508842] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_node\n'}
+[4.514921] (-) TimerEvent: {}
+[4.533935] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[4.615081] (-) TimerEvent: {}
+[4.682316] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[4.715233] (-) TimerEvent: {}
+[4.793473] (ydlidar_ros2_driver) Command: {'cmd': ['/home/reveha/.local/bin/cmake', '--install', '/home/reveha/ydlidar_ros2_ws/build/ydlidar_ros2_driver'], 'cwd': '/home/reveha/ydlidar_ros2_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'reveha'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/reveha'), ('OLDPWD', '/home/reveha'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('ROS_IP', '192.168.93.29'), ('MANAGERPID', '1615'), ('SYSTEMD_EXEC_PID', '2104'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '42263'), ('COLCON_PREFIX_PATH', '/home/reveha/ydlidar_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'reveha'), ('JOURNAL_STREAM', '8:41295'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'reveha'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/reveha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/reveha:@/tmp/.ICE-unix/1841,unix/reveha:/tmp/.ICE-unix/1841'), ('INVOCATION_ID', '8772df7c2c184afeb9d42fd849bc937e'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:b794a32c-cfe5-4b2a-9696-eb26bfbef1ba'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.93.221:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/reveha/ydlidar_ros2_ws/build/ydlidar_ros2_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local/share/YDLIDAR_SDK:/opt/ros/humble')]), 'shell': False}
+[4.815446] (-) TimerEvent: {}
+[4.885816] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.886176] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.886399] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[4.890627] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[4.894764] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[4.898141] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[4.901752] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py\n'}
+[4.905662] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml\n'}
+[4.909282] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml\n'}
+[4.915546] (-) TimerEvent: {}
+[4.917061] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml\n'}
+[4.924666] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml\n'}
+[4.928696] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml\n'}
+[4.932959] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml\n'}
+[4.936596] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml\n'}
+[4.943819] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml\n'}
+[4.948534] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml\n'}
+[4.953116] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml\n'}
+[4.956928] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[4.961278] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[4.966325] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[4.971238] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[4.975900] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[4.983488] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[4.990891] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[4.998535] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[5.005889] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[5.010522] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[5.015687] (-) TimerEvent: {}
+[5.017810] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[5.022804] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[5.026479] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[5.030310] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[5.035628] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[5.042885] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[5.048350] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[5.052835] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/reveha/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[5.071688] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[5.115814] (-) TimerEvent: {}
+[5.216202] (-) TimerEvent: {}
+[5.224502] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[5.225840] (-) EventReactorShutdown: {}
